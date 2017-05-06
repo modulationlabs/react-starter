@@ -1,0 +1,18 @@
+{
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".idea": true,
+    "npm-debug.log": true,
+    "coverage": true,
+    ".DS_Store": true
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".idea": true,
+    "npm-debug.log": true,
+    "coverage": true,
+    ".DS_Store": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "es5",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "pretty": true,
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "typeRoots": [
+      "./node_modules/@types", "./types"
+    ],
+    "allowUnusedLabels": false,
+    "noImplicitReturns": true
+  },
+  "files": [
+    "index.ts",
+    "types/index.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts?",
+    "dist"
+  ]
+}
