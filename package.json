@@ -1,12 +1,12 @@
 {
-  "name": "react-redux-typescript-webpack-starter",
+  "name": "react-starter",
   "version": "0.0.0",
-  "description": "A general purpose template that can serve as a starter kit for a library or an app. Features TypeScript 2, @types, React, React Router, React Hot Loader 3, Redux, Webpack 2, Karma, Mocha, Enzyme, Chai, Sinon, Coverage, SASS, CSS Modules, Bootstrap.",
+  "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reanimatter/react-redux-typescript-webpack-starter"
+    "url": "https://github.com/modulationlabs/react-starter.git"
   },
-  "homepage": "https://github.com/reanimatter/react-redux-typescript-webpack-starter",
+  "homepage": "https://github.com/modulationlabs/react-starter",
   "keywords": [
     "react",
     "redux",
@@ -40,7 +40,7 @@
     "test:watch": "npm run test -- --auto-watch --no-single-run",
     "report-coverage": "codecov"
   },
-  "author": "Maxim Lichmanov <reanimatter@gmail.com> (http://reanimatter.com)",
+  "author": "",
   "license": "MIT",
   "devDependencies": {
     "@types/bootstrap": "^3.3.32",
