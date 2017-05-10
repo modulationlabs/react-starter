@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as _ from 'lodash';
 
-export class Http {
+export default class Http {
 
   public headers: Headers;
   public defaultOptions: RequestInit;
@@ -20,7 +20,7 @@ export class Http {
     return Object.assign({}, this.defaultOptions, additionalObject);
   }
 
-  get(url: string, options: RequestInit) {
+  get(url: string, options?: RequestInit) {
     return fetch(url, options);
   }
 

@@ -8,6 +8,7 @@ import Home from './home';
 import About from './about';
 import Contact from './contact';
 import NotFound from './not-found';
+import Http from './../../lib/api';
 
 export const routes: RouteProps[] = [{
 	path: '/',
@@ -24,7 +25,16 @@ export const routes: RouteProps[] = [{
 	component: NotFound
 }];
 
+var http = new Http();
+
 export default class Root extends React.Component<any, any> {
+
+	componentDidMount() {
+		// API call
+		http.get('https://www.googleapis.com/youtube/v3/channels?part=contentDetails%20&mine=true').then((data) => {
+			console.log(data);
+		})
+	}
 
 	render() {
 		return (
